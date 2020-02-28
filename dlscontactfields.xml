@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="user" method="upgrade">
+	<name>plg_user_dlscontactfields</name>
+	<author>Diego Soler</author>
+	<creationDate>August 2018</creationDate>
+	<copyright>(C) 2008 - 2020 Inteliar.com.ar All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<authorEmail>solerdiego@gmail.com</authorEmail>
+	<authorUrl>www.inteliar.com.ar</authorUrl>
+	<version>0.2.0</version>
+	<description>PLG_USER_DLS_CONTACT_FIELDS_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="dlscontactfields">dlscontactfields.php</filename>
+		<folder>forms</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_user_dlscontactfields.ini</language>
+		<language tag="en-GB">en-GB.plg_user_dlscontactfields.sys.ini</language>
+
+		<language tag="es-ES">es-ES.plg_user_dlscontactfields.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" >
+				<field name="contact_select_enable"
+					type="list"
+					label="PLG_USER_DLS_CONTACT_FIELDS_CONTACT_SELECT_ENABLE_LABEL"
+					description="PLG_USER_DLS_CONTACT_FIELDS_CONTACT_SELECT_ENABLE_DESC"
+					default="0"
+				>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="contact_ids"
+					type="text"
+					label="PLG_USER_DLS_CONTACT_FIELDS_CONTACT_IDS_LABEL"
+					description="PLG_USER_DLS_CONTACT_FIELDS_CONTACT_IDS_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
