@@ -19,4 +19,4 @@ No olvide agregar las traducciones correspondientes a cada nuevo campo en el arc
 
 ## Instalación
 
-Usted puede comprimir los archivos en un solo archivo con formato zip e instalarlo como cualquier otra extensión estándar de Joomla.
+Usted puede comprimir los archivos en un solo archivo con formato zip e instalarlo como lo haría con cualquier otra extensión estándar de Joomla.
